@@ -1,0 +1,1 @@
+javascript:var%20firebug%3Ddocument.createElement(%27script%27)%3Bfirebug.setAttribute(%27src%27,%27https://luphoria.com/fbl/fbl/firebug-lite-debug.js%27)%3Bdocument.body.appendChild(firebug)%3B(function()%7Bif(window.firebug.version)%7Bfirebug.init()%3B%7Delse%7BsetTimeout(arguments.callee)%3B%7D%7D)()%3Bvoid(firebug)%3B
